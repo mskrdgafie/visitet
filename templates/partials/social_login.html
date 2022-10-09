@@ -1,0 +1,17 @@
+{% load static %}
+<div class="btn-wrapper">
+    <a href="{% url 'users:github-login' %}" class="btn bg-gray-800 text-white">
+        <i class="fab fa-github fa-lg mr-1"></i>
+        Continue With Github
+    </a>
+    <a href="{% url 'users:kakao-login' %}" class="btn border-kakao bg-kakao text-black">
+        <i class="fas fa-comment fa-lg mr-1"></i>
+        Continue With Kakao
+    </a>
+</div>
+
+<div class="flex items-center w-11/12 mt-2 mb-4 md:mt-3 md:mb-6 md:w-10/12">
+    <div class="h-px w-full bg-gray-400"></div>
+    <span class="text-gray-600 font-medium mx-4 text-sm">or</span>
+    <div class="h-px w-full bg-gray-400"></div>
+</div>
