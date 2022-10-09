@@ -21,7 +21,7 @@ Visitet enables properties to reach audience and grow their businesses.
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/mskrdgafie/visitet.git
 ```
 
 Go to the project directory
